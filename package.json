@@ -1,0 +1,35 @@
+{
+  "name": "trivago-api-automation",
+  "version": "1.0.0",
+  "description": "Trivago API Challenge",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --exit --timeout 10000 || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuksheshTalwar/TrivagoAPIChallenge.git"
+  },
+  "keywords": [
+    "API",
+    "Trivago",
+    "Automation"
+  ],
+  "author": "Rukshesh Talwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuksheshTalwar/TrivagoAPIChallenge/issues"
+  },
+  "homepage": "https://github.com/RuksheshTalwar/TrivagoAPIChallenge#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.0"
+  }
+}
